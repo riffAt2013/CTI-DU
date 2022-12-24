@@ -1,0 +1,44 @@
+.main-card {
+    min-height: 100%;
+    padding-left: 4%;
+    padding-top: 3%;
+}
+
+.flexbox {
+    display: flex;
+    /* background-color: cadetblue; */
+    justify-content: center;
+    gap: 2em 1em;
+
+}
+
+.btn-flex {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.service-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 10px;
+}
+
+.image-height {
+    max-height: 100px;
+    max-width: 250px;
+}
+
+.button-list-flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 0px 13%;
+}
+
+.button-list-flex>a {
+    margin-top: -20px;
+    margin-right: 2%;
+}
